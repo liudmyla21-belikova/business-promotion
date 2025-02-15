@@ -4,24 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/logo.png" alt="logo" />Product</a
-        >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricises.html">Pricing</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="./index.html" class="header-logo"
+            ><img src="./images/logo.png" alt="logo" />Product</a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-item-link" href="./index.html">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-item-link" href="./pricises.html">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-item-link" href="./customer.html">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-item-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list-btn">
+          <li class="list-btn-item">
+            <button type="button" class="list-btn-sign">Sign In</button>
+          </li>
+          <li class="list-btn-item">
+            <button type="button" class="list-btn-sign second">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
       <section>
