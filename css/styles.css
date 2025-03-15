@@ -101,7 +101,7 @@ button {
 
 .list-btn-item {}
 
-.second {
+.btn-second {
     background: #02897a;
     border-radius: 4px;
     width: 113px;
@@ -109,7 +109,7 @@ button {
     color: #fff;
 }
 
-.section-hero {
+.hero {
     padding: 25px 0;
 }
 
@@ -136,6 +136,7 @@ button {
         font-size: 18px;
         line-height: 1.55;
         color: #22343d;
+        margin-bottom: 45px;
 }
 
 .hero-list {
@@ -154,11 +155,10 @@ button {
             color: #fff;
             border-radius: 4px;
             background: #02897a;
+            margin-right: 30px;
 }
 
 .btn-hero-second {
-    width: 164px;
-        height: 23px;
         font-weight: 600;
             font-size: 16px;
             text-decoration: underline;
@@ -168,11 +168,17 @@ button {
             text-align: center;
 }
 
+.triangle-icon {
+    fill: #02897a;
+    margin-right: 8px;
+}
+
 .specifically {
     padding: 100px 0;
 }
 
 .specifically-container {
+    margin-bottom: 50px;
 }
 
 .specifically-title {
@@ -180,7 +186,7 @@ button {
         font-size: 32px;
         text-align: center;
         color: #22343d;
-        max-width: 431px;
+        max-width: 500px;
             color: #22343d;
             margin: 0 auto 50px;
     }
@@ -193,6 +199,40 @@ button {
 
 .specifically-item {
     width: calc((100% - 30px * 3) / 4);
+}
+
+.icon-container {
+    border-radius: 19px;
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+}
+
+.grenn-wrap {
+    background-color: #02897a;
+    padding: 18px;
+}
+
+.blue-wrap {
+background-color: #4d8dff;
+padding: 18px;
+} 
+
+.violet-wrap {
+background-color: #740a76;
+padding: 18px;
+}
+
+.tomato-wrap {
+    background-color: #f03e3d;
+padding: 18px;    
+}
+
+.item-icon {
+    fill: #fff;
 }
 
 .specifically-subtitle {
@@ -216,7 +256,66 @@ button {
         font-weight: 700;
             font-size: 16px;
             color: #fff;
+            margin: 0 auto;
             align-items: center;
+}
+
+.management {}
+
+.management-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 84px;
+}
+
+.management-subcontainer {
+    padding: 41px 0;
+    max-width: 486px;
+}
+
+.management-title {
+  font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 25px;
+}
+
+.span {
+    display: block;
+    font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 8px;
+}
+
+.management-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #22343d;
+        margin-bottom: 30px;
+}
+
+.management-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.management-item {}
+
+.management-subtitle {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #22343d;
+        margin-bottom: 12px;
+}
+
+.management-subtext {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.63;
+        margin-bottom: 25px;
 }
 
 .container-contact {
